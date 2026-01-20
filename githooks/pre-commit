@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+# pre-commit fails if validate-repo fails or if validate-repo modifies any staged file.
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT"
+
+staged_files="$(git diff --cached --name-only)"
+"$ROOT/bin/validate-repo.sh"
+
+if [[ -n "$staged_files" ]]; then
+  dirty_staged="$(git diff --name-only -- $staged_files)"
+  if [[ -n "$dirty_staged" ]]; then
+    echo "pre-commit: validation modified staged files in working tree; review/stage and re-run" >&2
+    echo "$dirty_staged" >&2
+    exit 1
+  fi
+fi
