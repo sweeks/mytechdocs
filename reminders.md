@@ -31,7 +31,7 @@ My iPhone and iPad home screens have a Reminders widget that shows **Today**.
 A Google Calendar named **Reminders** has events for things that I can and should do in
 the future. This includes numerous recurring items, e.g. a weekly order-groceries event.
 
-## iOS Automation
+## iOS Shortcuts Automation
 
 I have iOS shortcuts that add items to **Today**, either by moving them from other lists
 or from my **Reminders** calendar. My iPad runs these shortcuts automatically:
