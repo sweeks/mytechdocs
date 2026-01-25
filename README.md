@@ -21,6 +21,8 @@ services, and the way I configure and operate them.
 
 - Media: prefer dash-separated filenames; place topic docs in dedicated subfolders with a
   `README.md`.
+- Images: use relative links within the subfolder (e.g., `![caption](./photo.jpeg)`) so
+  GitHub renders them; avoid spaces in filenames.
 - Root-level markdown files for topics (networking, media, automation, backups, etc.)
 - Start with `tech-inventory.md` as the entry point; add more topic files alongside it
 
