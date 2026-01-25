@@ -17,7 +17,7 @@
 - Counterclockwise = **OPEN**
 - Clockwise = **CLOSED**
 - Closing this shuts off *all* gas to the unit
-- <a href="./main-gas-valve.jpeg"><img src="./main-gas-valve.jpeg" alt="Main gas valve with key" width="320"/></a>
+- <img src="./main-gas-valve.jpeg" alt="Main gas valve with key" width="300"/>
 
 ## Firebox
 
@@ -35,7 +35,7 @@ Controls on the left-hand side:
   - **PILOT** – pilot gas available *only when knob is pressed in*
   - **ON** – main burner enabled (requires switch call)
 - Flame-height knob: **Low** continuous to **High**, affects main burner.
-- <a href="./left-side-controls.jpeg"><img src="./left-side-controls.jpeg" alt="Left-side controls" width="320"/></a>
+- <img src="./left-side-controls.jpeg" alt="Left-side controls" width="300"/>
 
 Controls on the right-hand side:
 
@@ -46,7 +46,7 @@ Controls on the right-hand side:
 The normal use is to have the pilot lit and the rocker switch set to **Off**, in which
 case the wall switch controls the main-burner flame.
 
-- <a href="./flame-low.jpeg"><img src="./flame-low.jpeg" alt="Flame on low" width="320"/></a>
+- <img src="./flame-low.jpeg" alt="Flame on low" width="300"/>
 
 ## Start of season
 
@@ -78,4 +78,4 @@ of the cover, and lift up the cover. The assembly is on the right-hand side.
 - There is **no separate “pilot hood” cap** on this design
 - The **pilot flame exits directly from the tip of the lower horizontal rod**
 - The igniter spark occurs **at that same location**
-- <a href="./pilot-light.jpeg"><img src="./pilot-light.jpeg" alt="Pilot lit" width="320"/></a>
+- <img src="./pilot-light.jpeg" alt="Pilot lit" width="300"/>
