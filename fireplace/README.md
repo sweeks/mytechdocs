@@ -17,7 +17,7 @@
 - Counterclockwise = **OPEN**
 - Clockwise = **CLOSED**
 - Closing this shuts off *all* gas to the unit
-- <img src="main-gas-valve.jpeg" width="300"/>
+- <img src="./main-gas-valve.jpeg" width="300"/>
 
 ## Firebox
 
