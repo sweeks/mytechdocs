@@ -12,8 +12,15 @@ services, and the way I configure and operate them.
 - Pre-commit hook runs `bin/validate-repo.sh`; if it complains about missing tools, set up
   the venv first.
 
+## Codex
+
+- Git: user handles git actions. Never commit, push, or change git state without explicit
+  instruction.
+
 ## Structure
 
+- Media: prefer dash-separated filenames; place topic docs in dedicated subfolders with a
+  `README.md`.
 - Root-level markdown files for topics (networking, media, automation, backups, etc.)
 - Start with `tech-inventory.md` as the entry point; add more topic files alongside it
 
