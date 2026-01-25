@@ -10,8 +10,23 @@ if ! command -v "$PYTHON_BIN" >/dev/null 2>&1; then
   exit 1
 fi
 
+# Python tooling
 "$PYTHON_BIN" -m venv .venv
 "$ROOT/.venv/bin/pip" install --upgrade pip
 "$ROOT/.venv/bin/pip" install mdformat==0.7.18
 
-echo "Setup complete. Formatter available at .venv/bin/mdformat".
+# Git hooks
+# Git hooks
+mkdir -p .git/hooks
+for hook in "$ROOT"/githooks/*; do
+  name="$(basename "$hook")"
+  cp "$hook" ".git/hooks/$name"
+  chmod +x ".git/hooks/$name"
+done
+
+# Convenience: avoid editor on blank commit messages
+if ! git config core.editor >/dev/null; then
+  git config core.editor true
+fi
+
+echo "Setup complete."
