@@ -8,8 +8,8 @@
 
 ## Manufacturer Docs
 
-- [Installation instructions and owner's manual](fireplace/installation-instructions-and-owners-manual.pdf)
-- [Product guide](fireplace/product-guide.pdf)
+- [Installation instructions and owner's manual](installation-instructions-and-owners-manual.pdf)
+- [Product guide](product-guide.pdf)
 
 ## Parts
 
