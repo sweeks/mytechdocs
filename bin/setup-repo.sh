@@ -24,9 +24,4 @@ for hook in "$ROOT"/githooks/*; do
   chmod +x ".git/hooks/$name"
 done
 
-# Convenience: avoid editor on blank commit messages
-if ! git config core.editor >/dev/null; then
-  git config core.editor true
-fi
-
 echo "Setup complete."
