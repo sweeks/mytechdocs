@@ -6,11 +6,6 @@
 - **Standing pilot** with **millivolt gas valve**
 - Operates **without household electricity**
 
-## Manufacturer Docs
-
-- [Installation instructions and owner's manual](installation-instructions-and-owners-manual.pdf)
-- [Product guide](product-guide.pdf)
-
 ## Parts
 
 - Firebox, in the fireplace.
