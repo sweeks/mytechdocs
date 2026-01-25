@@ -8,7 +8,7 @@ services, and the way I configure and operate them.
 - Python 3.11+ and `mdformat~=0.7.18` (matches `multiviewer`)
 - Setup: `python3 -m venv .venv && .venv/bin/pip install mdformat==0.7.18`
 - Shortcut: `bin/setup-repo.sh` (one script: creates venv, installs mdformat, installs git
-  hooks, sets `core.editor=true` to avoid commit editor popups on blank messages)
+  hooks)
 - Format: `.venv/bin/mdformat --wrap 90 *.md` (or run `bin/validate-repo.sh`)
 - Pre-commit hook runs `bin/validate-repo.sh`; if it complains about missing tools, set up
   the venv first.
