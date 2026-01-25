@@ -16,6 +16,8 @@ services, and the way I configure and operate them.
 
 - Git: user handles git actions. Never commit, push, or change git state without explicit
   instruction.
+- Git convenience: run `bin/apply-git-config.sh` if you want blank commit messages to skip
+  opening an editor (sets local `core.editor=true`).
 
 ## Structure
 

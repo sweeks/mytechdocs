@@ -1,5 +1,7 @@
 # Fireplace
 
+x
+
 ## System Type
 
 - **Empire VFRL24 vent‑free gas fireplace**
