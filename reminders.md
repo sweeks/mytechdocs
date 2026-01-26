@@ -1,16 +1,24 @@
 # Reminders
 
-I use iOS reminders to keep track of things that I need to do.
+I use iOS reminders to keep track of things that I need to do. My approach is centered
+around a list, **Today**, that drives what I do. **Today** holds items that I can and
+should do today, and that can be immediately acted on. All items for which that isn't true
+go elsewhere, either on another list or in my **Reminders** calendar. I *never* let items
+linger in **Today**. All the infrastructure and approach is aimed at keeping **Today**
+simple and actionable.
 
-## Reminder Lists
+My iPhone and iPad home screens have a Reminders widget that shows **Today**.
 
-I use the following lists:
+I have iOS shortcuts automation that adds items to **Today** at appropriate times. I also
+have an iOS shortcut, **Snooze**, located underneath my Reminders widget, that lets me
+select items from **Today** and move them to one of the other lists or to the
+**Reminders** calendar.
 
-- **Today**: items that I can and should do today, and can be immediately acted on. If
-  that isn't the case for an item, then I move it to another list or to my **Reminders**
-  calendar. **Today** is _the only list_ that drives me doing stuff. It never has items
-  that last for multiple days. All the infrastructure and approach is aimed at keeping
-  **Today** simple and actionable.
+## Reminders Lists
+
+Here are all the Reminders lists that I use.
+
+- **Today**: the actionable list, described above.
 
 - **Later Today**: items that I can and should do later today. These are automatically
   moved to **Today** at 6pm.
@@ -22,14 +30,14 @@ I use the following lists:
 
 - **Someday**: items that have not started, but that I want to do someday.
 
-# iOS Home Screen
-
-My iPhone and iPad home screens have a Reminders widget that shows **Today**.
+There is no automation around **Pending** or **Someday**. I look at **Pending**
+occasionally and **Someday** rarely, and consider their items.
 
 ## Reminders Calendar
 
 A Google Calendar named **Reminders** has events for things that I can and should do in
-the future. This includes numerous recurring items, e.g. a weekly order-groceries event.
+the future. This includes numerous recurring items, e.g. a weekly event to order
+groceries.
 
 ## iOS Shortcuts Automation
 
