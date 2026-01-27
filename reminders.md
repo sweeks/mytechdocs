@@ -1,13 +1,18 @@
 # Reminders
 
-I use the Apple Reminders app to keep track of things that I need to do. My approach is
+I use Apple's Reminders app to keep track of things that I need to do. My approach is
 centered around a list, **Today**, that drives what I do. **Today** holds items that I can
 and should do today, and that can be immediately acted on. All items for which that isn't
 true go elsewhere, either on another list or in my **Reminders** calendar. I *never* let
 items linger in **Today**. All the infrastructure and approach is aimed at keeping
-**Today** simple and actionable.
+**Today** simple and actionable, and empty by the end of each day.
 
-My iPhone and iPad home screens have a Reminders widget that shows **Today**.
+A Google Calendar named **Reminders** has events for things that I can and should do in
+the future. This includes numerous recurring items, e.g. a weekly event to order
+groceries.
+
+My iPhone and iPad home screens have a Reminders widget that shows the first few items of
+**Today**.
 
 I have iOS Shortcuts automation that adds items to **Today** at appropriate times. I also
 have an iOS shortcut, **Snooze**, located underneath my Reminders widget, that lets me
@@ -32,12 +37,6 @@ Here are all the Reminders lists that I use.
 
 There is no automation around **Pending** or **Someday**. I look at **Pending**
 occasionally and **Someday** rarely, and consider their items.
-
-## Reminders Calendar
-
-A Google Calendar named **Reminders** has events for things that I can and should do in
-the future. This includes numerous recurring items, e.g. a weekly event to order
-groceries.
 
 ## iOS Shortcuts Automation
 
