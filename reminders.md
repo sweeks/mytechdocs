@@ -1,15 +1,15 @@
 # Reminders
 
-I use iOS reminders to keep track of things that I need to do. My approach is centered
-around a list, **Today**, that drives what I do. **Today** holds items that I can and
-should do today, and that can be immediately acted on. All items for which that isn't true
-go elsewhere, either on another list or in my **Reminders** calendar. I *never* let items
-linger in **Today**. All the infrastructure and approach is aimed at keeping **Today**
-simple and actionable.
+I use the Apple Reminders app to keep track of things that I need to do. My approach is
+centered around a list, **Today**, that drives what I do. **Today** holds items that I can
+and should do today, and that can be immediately acted on. All items for which that isn't
+true go elsewhere, either on another list or in my **Reminders** calendar. I *never* let
+items linger in **Today**. All the infrastructure and approach is aimed at keeping
+**Today** simple and actionable.
 
 My iPhone and iPad home screens have a Reminders widget that shows **Today**.
 
-I have iOS shortcuts automation that adds items to **Today** at appropriate times. I also
+I have iOS Shortcuts automation that adds items to **Today** at appropriate times. I also
 have an iOS shortcut, **Snooze**, located underneath my Reminders widget, that lets me
 select items from **Today** and move them to one of the other lists or to the
 **Reminders** calendar.
@@ -41,15 +41,15 @@ groceries.
 
 ## iOS Shortcuts Automation
 
-I have iOS shortcuts that add items to **Today**, either by moving them from other lists
-or from my **Reminders** calendar. My iPad runs these shortcuts automatically:
+iOS Shortcuts add items to **Today**, either by moving them from other lists or from my
+**Reminders** calendar. My iPad runs these shortcuts automatically:
 
 - `Add Calendar-based Reminders` hourly throughout the day.
 - `Shift Later Today To Today` at 6pm.
 - `Shift Tomorrow To Today` at midnight.
 
 The `Shift` shortcuts are trivial. `Add Calendar-based Reminders` is more complicated. It
-maintains an event titled `iOS Cutoff` in the **Reminders** calendar. When the shortcut
-runs, it processes all **Reminders** calendar events that started between `iOS Cutoff`'s
+maintains an event titled `iOS CUTOFF` in the **Reminders** calendar. When the shortcut
+runs, it processes all **Reminders** calendar events that started between `iOS CUTOFF`'s
 start and _now_, adding an item to **Today** for each such event. It then updates the
-`iOS Cutoff` event to start at _now_.
+`iOS CUTOFF` event to start at _now_.
