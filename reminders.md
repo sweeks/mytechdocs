@@ -3,10 +3,10 @@
 I use Apple's Reminders app to keep track of things that I need to do. My approach is
 centered around a list, **Today**, that drives what I do. **Today** holds items that I can
 and should do today, and that can be immediately acted on. All items for which that isn't
-true go elsewhere, either on another list or in my **Reminders** calendar, a Google
-Calendar with events that become items on *Today* in the future. I *never* let items
-linger in **Today**. All the infrastructure and approach is aimed at keeping **Today**
-simple and actionable, and empty by the end of each day.
+true go elsewhere, either on another list or in my **Reminders** Google calendar, which
+has events that become items on **Today** in the future. I *never* let items linger in
+**Today**. All the infrastructure and approach is aimed at keeping **Today** simple and
+actionable, and empty by the end of each day.
 
 My iPhone and iPad home screens have a Reminders widget that shows the first few items of
 **Today**.
