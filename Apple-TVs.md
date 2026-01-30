@@ -18,4 +18,5 @@ home WiFi.
 
 To take a screenshot of an Apple TV, start Xcode on my Mac, open
 `Window > Devices and Simulators`, and then select the desired ATV in the sidebar (pair if
-needed).
+needed). That should show a "Take Screenshot" button, among others, and clicking that will
+add a screenshot `.png` to my Mac's desktop.
